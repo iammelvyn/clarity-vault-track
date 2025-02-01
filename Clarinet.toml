@@ -8,6 +8,10 @@ requirements = []
 path = "contracts/vault.clar"
 depends_on = []
 
+[contracts.vault-auth]
+path = "contracts/vault-auth.clar"
+depends_on = []
+
 [repl]
 costs_version = 2
 parser_version = 2
